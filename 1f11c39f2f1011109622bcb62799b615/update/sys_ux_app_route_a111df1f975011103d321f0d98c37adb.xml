@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</app_config>
+        <description/>
+        <fields>globalSearchViewConfigId</fields>
+        <icon/>
+        <name>Search</name>
+        <optional_parameters>searchTerm</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>search</route_type>
+        <screen_type display_value="Search">2d11df1fd5501110b7a00bb6c9463bda</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-06-30 19:43:43</sys_created_on>
+        <sys_id>a111df1f975011103d321f0d98c37adb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Search</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_ux_app_route_a111df1f975011103d321f0d98c37adb</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:43:43</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=a111df1f975011103d321f0d98c37adb"/>
+</record_update>

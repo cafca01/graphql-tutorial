@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-06-30 19:43:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a511df1fca5011107eb0ee3124b171dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>m2m_app_config_theme_a511df1fca5011107eb0ee3124b171dc</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:43:42</sys_updated_on>
+        <theme display_value="Starter Workspace Theme">2911df1f7d50111034c802a745b8d9dc</theme>
+        <ux_app_configuration display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

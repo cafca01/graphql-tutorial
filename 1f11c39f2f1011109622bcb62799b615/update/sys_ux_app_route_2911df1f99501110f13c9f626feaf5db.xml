@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</app_config>
+        <description/>
+        <fields>uuid</fields>
+        <icon/>
+        <name>KPI Details</name>
+        <optional_parameters>scoreDate,breakdowns,domain</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>ac_kpi_details</route_type>
+        <screen_type display_value="KPI Details">a911df1f72501110889340a7c836fddb</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-06-30 19:43:43</sys_created_on>
+        <sys_id>2911df1f99501110f13c9f626feaf5db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_ux_app_route_2911df1f99501110f13c9f626feaf5db</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:43:43</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=2911df1f99501110f13c9f626feaf5db"/>
+</record_update>

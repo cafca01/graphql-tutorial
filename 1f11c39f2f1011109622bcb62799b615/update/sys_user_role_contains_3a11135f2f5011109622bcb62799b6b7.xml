@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-06-30 19:43:46</sys_created_on>
+        <sys_id>3a11135f2f5011109622bcb62799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.admin</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_user_role_contains_3a11135f2f5011109622bcb62799b6b7</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-06-30 19:43:46</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
