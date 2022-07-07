@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_graphql">
+    <sys_ux_data_broker_graphql action="INSERT_OR_UPDATE">
+        <api_name>x_530453_gqlt.Student and Incidents</api_name>
+        <description>Get a student record with an array of Incidents included.</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Student and Incidents</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "studentSysId",&#13;
+    "label": "Student Sys Id",&#13;
+    "description": "Student's Sys ID",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  }&#13;
+]</props>
+        <query>query ($studentSysId: ID!) {&#13;
+	x530453Gqlt {&#13;
+		university {&#13;
+			getStudent(id: $studentSysId) {&#13;
+				id&#13;
+				name&#13;
+				email&#13;
+				phone&#13;
+				city&#13;
+				state&#13;
+				incidents {&#13;
+					id&#13;
+					number&#13;
+					shortDescription&#13;
+				}&#13;
+			}&#13;
+		}&#13;
+	}&#13;
+}</query>
+        <required_translations>[ {
+  "message" : "Student Sys Id",
+  "comment" : ""
+}, {
+  "message" : "Student's Sys ID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[(function buildQuery(query, inputs) { 
+         var qb = new GraphQLQueryBuilder(query, inputs);
+   // return appropriate query here
+    return qb; 
+   })(query, inputs);]]></script>
+        <sys_class_name>sys_ux_data_broker_graphql</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-07-07 18:25:34</sys_created_on>
+        <sys_id>f93203ed2fe091109622bcb62799b66e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Student and Incidents</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_ux_data_broker_graphql_f93203ed2fe091109622bcb62799b66e</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-07-07 19:21:35</sys_updated_on>
+        <type>query</type>
+        <use_record_domain>false</use_record_domain>
+    </sys_ux_data_broker_graphql>
+    <sys_translated_text action="delete_multiple" query="documentkey=f93203ed2fe091109622bcb62799b66e"/>
+</record_update>

@@ -287,7 +287,7 @@
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;&lt;span style=\"font-size: 18.6667px;\"&gt;Querying Data with your GraphQL API Tutorial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18.6667px;\"&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+                            "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
                             "comment" : ""
                           }
                         }
@@ -917,7 +917,7 @@
   "message" : "&lt;p&gt;Here are example queries which you can use to start testing queries for the tutorial.&amp;nbsp; Consider a tool such as &lt;a href=\"https://insomnia.rest/\"&gt;Insomnia&lt;/a&gt; which will allow you to query your instance and supports syntax highlighting, prettifier and auto-complete of field names.&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;&lt;span style=\"font-size: 18.6667px;\"&gt;Querying Data with your GraphQL API Tutorial&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 18.6667px;\"&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span style=\"font-size: 14pt;\"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;",
+  "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Get Incident",
@@ -947,13 +947,13 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-06-30 19:43:43</sys_created_on>
         <sys_id>6911df1fb5501110362715ca77262cda</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
         <sys_policy/>
         <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
         <sys_update_name>sys_ux_macroponent_6911df1fb5501110362715ca77262cda</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2022-06-30 22:33:21</sys_updated_on>
+        <sys_updated_on>2022-07-07 18:17:06</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
