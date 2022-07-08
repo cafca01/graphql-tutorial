@@ -184,22 +184,30 @@
                   },
                   "overrides" : {
                     "composition" : [ {
-                      "elementId" : "stylized_text_1",
-                      "elementLabel" : "Stylized text 1",
+                      "elementId" : "container_13",
+                      "elementLabel" : "Container 13",
                       "propertyValues" : {
-                        "text" : {
+                        "ariaRegionName" : {
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "Welcome to the GraphQL Tutorial Home Page",
+                            "message" : "",
                             "comment" : ""
                           }
                         },
-                        "tag" : {
+                        "includeAriaHeading" : {
                           "type" : "JSON_LITERAL",
-                          "value" : "h3"
+                          "value" : false
                         },
-                        "css" : {
+                        "ariaRegionHeadingLevel" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "1"
+                        },
+                        "type" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "section"
+                        },
+                        "ariaRole" : {
                           "type" : "JSON_LITERAL",
                           "value" : ""
                         }
@@ -207,31 +215,243 @@
                       "eventMappings" : [ ],
                       "slot" : null,
                       "definition" : {
-                        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                        "id" : "d356d14b6e293a3020a244b63d278d8f",
                         "type" : "MACROPONENT"
                       },
-                      "overrides" : null,
+                      "overrides" : {
+                        "composition" : [ {
+                          "elementId" : "stylized_text_1",
+                          "elementLabel" : "Stylized text 1",
+                          "propertyValues" : {
+                            "text" : {
+                              "type" : "TRANSLATION_LITERAL",
+                              "value" : {
+                                "code" : null,
+                                "message" : "Welcome to the GraphQL Tutorial Home Page",
+                                "comment" : ""
+                              }
+                            },
+                            "tag" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "h3"
+                            },
+                            "css" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : ""
+                            }
+                          },
+                          "eventMappings" : [ ],
+                          "slot" : null,
+                          "definition" : {
+                            "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+                            "type" : "MACROPONENT"
+                          },
+                          "overrides" : null,
+                          "isHidden" : {
+                            "type" : "JSON_LITERAL",
+                            "value" : ""
+                          },
+                          "isHero" : false,
+                          "isNonDestructive" : false,
+                          "styles" : {
+                            "padding-left" : "var(--now-static-space--lg)",
+                            "color" : "rgb(var(--now-heading--header-secondary--color,var(--now-color_text--secondary,var(--now-color--neutral-15,44,53,55))))"
+                          }
+                        } ],
+                        "layout" : {
+                          "default" : {
+                            "children" : null,
+                            "isInline" : null,
+                            "items" : [{"element_id":"stylized_text_1","styles":{}}],
+                            "root" : null,
+                            "rules" : null,
+                            "styles" : {"flex-direction":"column"},
+                            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                            "type" : "flex"
+                          },
+                          "version" : "3.0.0"
+                        }
+                      },
                       "isHidden" : {
                         "type" : "JSON_LITERAL",
-                        "value" : ""
+                        "value" : null
                       },
                       "isHero" : false,
                       "isNonDestructive" : false,
                       "styles" : {
-                        "padding-left" : "var(--now-static-space--lg)",
-                        "color" : "rgb(var(--now-heading--header-secondary--color,var(--now-color_text--secondary,var(--now-color--neutral-15,44,53,55))))"
+                        "width" : "100%"
+                      }
+                    }, {
+                      "elementId" : "container_14",
+                      "elementLabel" : "Container 14",
+                      "propertyValues" : {
+                        "ariaRegionName" : {
+                          "type" : "TRANSLATION_LITERAL",
+                          "value" : {
+                            "code" : null,
+                            "message" : "",
+                            "comment" : ""
+                          }
+                        },
+                        "includeAriaHeading" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : false
+                        },
+                        "ariaRegionHeadingLevel" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "1"
+                        },
+                        "type" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : "section"
+                        },
+                        "ariaRole" : {
+                          "type" : "JSON_LITERAL",
+                          "value" : ""
+                        }
+                      },
+                      "eventMappings" : [ ],
+                      "slot" : null,
+                      "definition" : {
+                        "id" : "d356d14b6e293a3020a244b63d278d8f",
+                        "type" : "MACROPONENT"
+                      },
+                      "overrides" : {
+                        "composition" : [ {
+                          "elementId" : "button_1",
+                          "elementLabel" : "Button 1",
+                          "propertyValues" : {
+                            "variant" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "primary"
+                            },
+                            "size" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "md"
+                            },
+                            "label" : {
+                              "type" : "TRANSLATION_LITERAL",
+                              "value" : {
+                                "code" : null,
+                                "message" : "List Example",
+                                "comment" : ""
+                              }
+                            },
+                            "icon" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : "list-fill"
+                            },
+                            "disabled" : {
+                              "type" : "JSON_LITERAL",
+                              "value" : false
+                            },
+                            "tooltipContent" : {
+                              "type" : "TRANSLATION_LITERAL",
+                              "value" : {
+                                "code" : null,
+                                "message" : "See an example of reading GraphQL Data and rendering it in a list",
+                                "comment" : ""
+                              }
+                            },
+                            "configAria" : {
+                              "type" : "MAP_CONTAINER",
+                              "container" : { }
+                            }
+                          },
+                          "eventMappings" : [ {
+                            "eventMappingId" : "clffcygmcaaaabbjjffddbhhddaafxsineec",
+                            "isConfiguration" : false,
+                            "offRowStorageId" : null,
+                            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+                            "sourceEventCorrelationId" : null,
+                            "sourceEventDefinition" : {
+                              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+                              "id" : null,
+                              "type" : "UXEVENT"
+                            },
+                            "sourceEventSysId" : null,
+                            "targets" : [ {
+                              "broker" : null,
+                              "clientScript" : null,
+                              "conditional" : null,
+                              "declarativeAction" : null,
+                              "event" : {
+                                "apiName" : "x_530453_gqlt.NAV_ITEM_SELECTED_RELAY_6911df1fb5501110362715ca77262cda",
+                                "payload" : {
+                                  "type" : "JSON_LITERAL",
+                                  "value" : {
+                                    "route" : "repeater-example",
+                                    "fields" : {
+                                      "studentSysId" : "f12ca184735123002728660c4cf6a7ef"
+                                    },
+                                    "params" : null,
+                                    "redirect" : null,
+                                    "passiveNavigation" : null,
+                                    "title" : null,
+                                    "multiInstField" : null,
+                                    "targetRoute" : null,
+                                    "external" : null
+                                  }
+                                },
+                                "sysId" : "a911df1f6f50111080ff90417bc5a5da"
+                              },
+                              "operation" : null,
+                              "targetId" : "clffcygmcaaaabbjjggddbhhddohhffddccety",
+                              "type" : "EVENT"
+                            } ]
+                          } ],
+                          "slot" : null,
+                          "definition" : {
+                            "id" : "d37ce8abca89d02905fed903c8e34d8e",
+                            "type" : "MACROPONENT"
+                          },
+                          "overrides" : null,
+                          "isHidden" : {
+                            "type" : "JSON_LITERAL",
+                            "value" : null
+                          },
+                          "isHero" : false,
+                          "isNonDestructive" : false,
+                          "styles" : {
+                            "padding" : "var(--now-static-space--lg)",
+                            "padding-right" : "var(--now-static-space--lg)",
+                            "padding-left" : "var(--now-static-space--lg)"
+                          }
+                        } ],
+                        "layout" : {
+                          "default" : {
+                            "children" : null,
+                            "isInline" : null,
+                            "items" : [{"element_id":"button_1","styles":{}}],
+                            "root" : null,
+                            "rules" : null,
+                            "styles" : {"flex-direction":"row","justify-content":"flex-end"},
+                            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+                            "type" : "flex"
+                          },
+                          "version" : "3.0.0"
+                        }
+                      },
+                      "isHidden" : {
+                        "type" : "JSON_LITERAL",
+                        "value" : null
+                      },
+                      "isHero" : false,
+                      "isNonDestructive" : false,
+                      "styles" : {
+                        "width" : "100%"
                       }
                     } ],
                     "layout" : {
                       "default" : {
                         "children" : null,
                         "isInline" : null,
-                        "items" : [{"rules":{},"styles":{},"element_id":"stylized_text_1"}],
+                        "items" : [{"rules":{},"styles":{},"element_id":"stylized_text_1"},{"element_id":"container_13","styles":{}},{"element_id":"container_14","styles":{}}],
                         "root" : null,
                         "rules" : {},
-                        "styles" : {"height":"100%","flex-direction":"column","display":"flex"},
+                        "styles" : {"flex-direction":"column","display":"grid","grid-template-columns":"1fr 1fr","grid-template-rows":"1fr"},
                         "templateId" : null,
-                        "type" : "flex"
+                        "type" : "grid"
                       },
                       "version" : "3.0.0"
                     }
@@ -242,7 +462,9 @@
                   },
                   "isHero" : false,
                   "isNonDestructive" : false,
-                  "styles" : { }
+                  "styles" : {
+                    "height" : "100%"
+                  }
                 }, {
                   "elementId" : "container_11",
                   "elementLabel" : "Container 11",
@@ -287,7 +509,7 @@
                           "type" : "TRANSLATION_LITERAL",
                           "value" : {
                             "code" : null,
-                            "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+                            "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;Available in Github at the &lt;a title=\"ServiceNow Next Experience\" href=\"https://github.com/ServiceNowNextExperience/graphql-tutorial\" target=\"_blank\" rel=\"noopener\"&gt;ServiceNow Next Experience&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
                             "comment" : ""
                           }
                         }
@@ -744,7 +966,7 @@
                   "type" : "TRANSLATION_LITERAL",
                   "value" : {
                     "code" : null,
-                    "message" : "query {\n  x530453Gqlt {\n    university {\n      getIncidentsForStudent(callerId: \"77ad8176731313005754660c4cf6a7de\") {\n        id\n        number\n        shortDescription\n      }\n    }\n  }\n}",
+                    "message" : "query ($studentSysId: ID!) {\n  x530453Gqlt {\n    university {\n      getStudent(id: $studentSysId) {\n        id\n        name\n        email\n        phone\n        city\n        state\n        incidents {\n          id\n          number\n          shortDescription\n        }\n      }\n    }\n  }\n}",
                     "comment" : ""
                   }
                 },
@@ -917,7 +1139,7 @@
   "message" : "&lt;p&gt;Here are example queries which you can use to start testing queries for the tutorial.&amp;nbsp; Consider a tool such as &lt;a href=\"https://insomnia.rest/\"&gt;Insomnia&lt;/a&gt; which will allow you to query your instance and supports syntax highlighting, prettifier and auto-complete of field names.&lt;/p&gt;",
   "comment" : ""
 }, {
-  "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+  "message" : "&lt;p&gt;This application is a complete implementation of the GraphQL Tutorial which was created on the ServiceNow community.&lt;/p&gt;\n&lt;p&gt;The latest edition is a demonstration of binding GraphQL data to a UI Builder interface.&lt;/p&gt;\n&lt;p&gt;1. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=891d917adb344d10382a82630596193d\"&gt;Setting up and Testing your first GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2. &lt;a href=\"https://community.servicenow.com/community?id=community_article&amp;amp;sys_id=014b8310db8d4510019ac22305961949\"&gt;Querying Data with your GraphQL API Tutorial&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;3. (Coming Soon) Binding GraphQL Data to a UI Builder Page&lt;/p&gt;\n&lt;p&gt;Available in Github at the &lt;a title=\"ServiceNow Next Experience\" href=\"https://github.com/ServiceNowNextExperience/graphql-tutorial\" target=\"_blank\" rel=\"noopener\"&gt;ServiceNow Next Experience&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Get Incident",
@@ -926,16 +1148,22 @@
   "message" : "Get Incidents for Student",
   "comment" : ""
 }, {
+  "message" : "List Example",
+  "comment" : ""
+}, {
   "message" : "Sample Queries",
+  "comment" : ""
+}, {
+  "message" : "See an example of reading GraphQL Data and rendering it in a list",
   "comment" : ""
 }, {
   "message" : "Welcome to the GraphQL Tutorial Home Page",
   "comment" : ""
 }, {
-  "message" : "query {\n  x530453Gqlt {\n    university {\n      getIncident(id: \"ff4c21c4735123002728660c4cf6a758\") {\n        id\n        number\n        shortDescription\n      }\n    }\n  }\n}",
+  "message" : "query ($studentSysId: ID!) {\n  x530453Gqlt {\n    university {\n      getStudent(id: $studentSysId) {\n        id\n        name\n        email\n        phone\n        city\n        state\n        incidents {\n          id\n          number\n          shortDescription\n        }\n      }\n    }\n  }\n}",
   "comment" : ""
 }, {
-  "message" : "query {\n  x530453Gqlt {\n    university {\n      getIncidentsForStudent(callerId: \"77ad8176731313005754660c4cf6a7de\") {\n        id\n        number\n        shortDescription\n      }\n    }\n  }\n}",
+  "message" : "query {\n  x530453Gqlt {\n    university {\n      getIncident(id: \"ff4c21c4735123002728660c4cf6a758\") {\n        id\n        number\n        shortDescription\n      }\n    }\n  }\n}",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -947,13 +1175,13 @@
         <sys_created_by>jon.lind</sys_created_by>
         <sys_created_on>2022-06-30 19:43:43</sys_created_on>
         <sys_id>6911df1fb5501110362715ca77262cda</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
         <sys_policy/>
         <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
         <sys_update_name>sys_ux_macroponent_6911df1fb5501110362715ca77262cda</sys_update_name>
         <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2022-07-07 18:17:06</sys_updated_on>
+        <sys_updated_on>2022-07-08 21:19:55</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
