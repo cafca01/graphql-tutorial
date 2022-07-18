@@ -1,0 +1,9 @@
+query {
+  xSncGraphTutor {
+    student {
+      getHelloWorld(name: "Lando Calrissian") {
+        message
+      }
+    }
+  }
+}

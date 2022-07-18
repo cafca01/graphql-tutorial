@@ -1,0 +1,13 @@
+schema {
+  query: Query
+}
+
+type Query {
+  /* NOTE: The ! means it's mandatory. Query must return a HelloWorld object */
+  getHelloWorld(name: String): HelloWorld!
+}
+
+type HelloWorld {
+  /* NOTE: The ! means that "message" cannot be missing or blank */
+  message: String!
+}

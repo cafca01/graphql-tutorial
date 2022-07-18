@@ -1,0 +1,28 @@
+schema {
+  query: Query
+}
+
+type Query {
+  getIncidentsForStudent(callerId: String!, last: Int): [Incident]
+  getIncident(id: ID!): Incident!
+}
+
+type Incident {
+  id: String! @source(value: "sys_id.value")
+  number: String! @source(value: "number.value")
+  active: Boolean! @source(value: "active.display_value")
+  state: String! @source(value: "state.display_value")
+  shortDescription: String @source(value: "short_description.value")
+  description: String @source(value: "description.value")
+  priority: String @source(value: "priority.display_value")
+  assignedTo: User @source(value: "assigned_to.value")
+  caller: User @source(value: "caller_id.value")
+}
+
+type User {
+  id: String! @source(value: "sys_id.value")
+  active: String @source(value: "active.display_value")
+  name: String @source(value: "name.value")
+  email: String @source(value: "email.value")
+  manager: User @source(value: "manager.value")
+}
