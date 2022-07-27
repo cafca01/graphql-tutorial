@@ -1,0 +1,19 @@
+query ($studentSysId: ID!) {
+  xSncGraphTutor {
+    university {
+      getStudent(id: $studentSysId) {
+        id
+        name
+        email
+        phone
+        city
+        state
+        incidents {
+          id
+          number
+          shortDescription
+        }
+      }
+    }
+  }
+}

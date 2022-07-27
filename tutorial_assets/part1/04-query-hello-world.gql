@@ -1,6 +1,6 @@
 query {
   xSncGraphTutor { /* Change to your Application Namespace */
-    student {
+    university {
       getHelloWorld {
         message
       }

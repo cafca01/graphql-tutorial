@@ -3,10 +3,10 @@
   // If that is empty then try to use the value from the @source directive
   // in the schema definition.  This allows us to use the same resolver
   // from a query (getUser(id)) or from a nested field (getIncident/assignedTo)
-  var userId = env.getArguments().id || env.getSource();
+  var sysId = env.getArguments().id || env.getSource();
 
   var gr = new GlideRecordSecure("sys_user");
-  gr.query("sys_id", userId);
+  gr.query("sys_id", sysId);
 
   return gr;
 })(env);
