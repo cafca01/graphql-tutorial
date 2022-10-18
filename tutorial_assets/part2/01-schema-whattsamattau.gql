@@ -4,6 +4,7 @@ schema {
 
 type Query {
   getIncidentsForStudent(callerId: String!, last: Int): [Incident]
+  getIncidents(priority: String): [Incident]
   getIncident(id: ID!): Incident!
 }
 
@@ -15,4 +16,6 @@ type Incident {
   shortDescription: String @source(value: "short_description.value")
   description: String @source(value: "description.value")
   priority: String @source(value: "priority.display_value")
+  assignedTo: User @source(value: "assigned_to.value")
+  caller: User @source(value: "caller_id.value")
 }

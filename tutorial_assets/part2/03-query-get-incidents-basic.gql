@@ -1,6 +1,6 @@
 query {
   xSncGraphTutor { /* Replace with your Application Namespace */
-    student {
+    university {
       getIncidentsForStudent(
         callerId: "62826bf03710200044e0bfc8bcbe5df1"
         last: 10

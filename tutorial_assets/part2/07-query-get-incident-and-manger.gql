@@ -1,0 +1,23 @@
+query {
+  xSncGraphTutor { /* Replace with your Application Namespace */
+    university {
+      getIncident(id: "979b6060a5954300964fa3aa92874155") {
+        shortDescription
+        priority
+        number
+        caller {
+          name
+          email
+        }
+        assignedTo {
+          name
+          email
+          manager {
+            name
+            email
+          }
+        }
+      }
+    }
+  }
+}
