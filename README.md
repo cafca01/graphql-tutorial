@@ -7,9 +7,9 @@ Tutorial on configuring a GraphQL api and hooking it up to UI Builder.
 ## Getting started
 
 This code covers the code for the GraphQL API tutorials posted at the SerivceNow Community site:
-1. [Setting up and Testing your first GraphQL API Tutorial](https://community.servicenow.com/community?id=community_article&sys_id=891d917adb344d10382a82630596193d)
-2. [Querying Data with your GraphQL API Tutorial](https://community.servicenow.com/community?id=community_article&sys_id=014b8310db8d4510019ac22305961949)
-3. [Using Data from your GraphQL API in UI Builder](https://community.servicenow.com/community?id=community_article&sys_id=3e86ca6b1ba05550cd3b33bc1d4bcb8e)
+1. [Setting up and Testing your first GraphQL API Tutorial](https://www.servicenow.com/community/now-platform-articles/setting-up-and-testing-your-first-graphql-api-tutorial-part-1-of/ta-p/2307775)
+2. [Querying Data with your GraphQL API Tutorial](https://www.servicenow.com/community/developer-articles/querying-data-with-your-graphql-api-tutorial-part-2-of-3/ta-p/2296493)
+3. [Using Data from your GraphQL API in UI Builder](https://www.servicenow.com/community/now-platform-articles/using-data-from-your-graphql-api-in-ui-builder-part-3-of-3/ta-p/2315430)
 
 This Tutorial is for someone who (like myself not that long ago) is not quite sure what GraphQL is our how it works or why I would use it in the first place.  I was interested in this technology, so I chose my favorite technique of learning hands-on within the context of ServiceNow.
 
