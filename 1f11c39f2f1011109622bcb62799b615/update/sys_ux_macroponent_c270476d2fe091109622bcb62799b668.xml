@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
-    <sys_ux_macroponent action="INSERT_OR_UPDATE">
-        <associated_types/>
-        <category>page</category>
-        <component_dependencies/>
-        <composition>[ {
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ux_macroponent">
+  <sys_ux_macroponent action="INSERT_OR_UPDATE">
+    <associated_types/>
+    <category>page</category>
+    <component_dependencies/>
+    <composition>[ {
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
   "propertyValues" : {
@@ -86,7 +87,7 @@
             "headingName" : {
               "type" : "DATA_OUTPUT_BINDING",
               "binding" : {
-                "address" : [ "student_and_incidents_1", "output", "data", "x530453Gqlt", "university", "getStudent", "name" ]
+                "address" : [ "student_and_incidents_1", "output", "data", "xSncGraphTutor", "university", "getStudent", "name" ]
               }
             },
             "headingLevel" : {
@@ -351,7 +352,7 @@
           "repeatWith" : {
             "type" : "DATA_OUTPUT_BINDING",
             "binding" : {
-              "address" : [ "student_and_incidents_1", "output", "data", "x530453Gqlt", "university", "getStudent", "incidents" ]
+              "address" : [ "student_and_incidents_1", "output", "data", "xSncGraphTutor", "university", "getStudent", "incidents" ]
             }
           },
           "styles" : { }
@@ -528,8 +529,8 @@
     "width" : "100%"
   }
 } ]</composition>
-        <da_relay_models/>
-        <data>[ {
+    <da_relay_models/>
+    <data>[ {
   "definition" : {
     "id" : "f93203ed2fe091109622bcb62799b66e",
     "type" : "GRAPHQL"
@@ -548,13 +549,13 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events/>
-        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events/>
-        <interactions/>
-        <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
-        <layout>{
+    <dispatched_events/>
+    <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+    <handled_events/>
+    <interactions/>
+    <interfaces/>
+    <internal_event_mappings>{ }</internal_event_mappings>
+    <layout>{
   "default" : {
     "children" : null,
     "isInline" : null,
@@ -567,9 +568,9 @@
   },
   "version" : "3.0.0"
 }</layout>
-        <macroponent_dependencies/>
-        <name>Repeater Example</name>
-        <props>[ {
+    <macroponent_dependencies/>
+    <name>Repeater Example</name>
+    <props>[ {
   "name" : "studentSysId",
   "label" : "studentSysId",
   "fieldType" : "string",
@@ -582,29 +583,29 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
-        <required_translations>[ {
+    <required_translations>[ {
   "message" : "&lt;p&gt;All of this was rendered with a single query to the GraphQL API (which is called \"&lt;a title=\"University\" href=\"now/nav/ui/classic/params/target/sys_graphql_schema.do%3Fsys_id%3Dc5488b172f5011109622bcb62799b6c3%26sysparm_record_target%3Dsys_graphql_schema%26sysparm_record_row%3D12%26sysparm_record_rows%3D13%26sysparm_record_list%3DORDERBYname\" target=\"_blank\" rel=\"noopener\"&gt;University&lt;/a&gt;\"), retrieving the student's data as well as their active incidents all at once.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To see how it works click on the little database icon in the bottom left of the UIBand select \"Student and Incidents 1\" to see the student's sys id retrieved from the page properties and passed to the GraphQL data resource to load their data.&lt;/p&gt;\n&lt;p&gt;To inspect that query you may go to Now Experience Framework &amp;gt; Data Management &amp;gt; GraphQL Queries and open the one called &lt;a title=\"Student and Incidents\" href=\"now/nav/ui/classic/params/target/sys_ux_data_broker_graphql.do%3Fsys_id%3Df93203ed2fe091109622bcb62799b66e\" target=\"_blank\" rel=\"noopener\"&gt;Student and Incidents&lt;/a&gt;.&amp;nbsp; There you can see how the GraphQL query is entered and the Student Sys ID parameter is configured.&lt;/p&gt;",
   "comment" : ""
 }, {
   "message" : "Open Incidents",
   "comment" : ""
 } ]</required_translations>
-        <root_component/>
-        <root_component_config>{ }</root_component_config>
-        <root_component_definition/>
-        <schema_version>1.0.0</schema_version>
-        <state_properties>[ ]</state_properties>
-        <sys_class_name>sys_ux_macroponent</sys_class_name>
-        <sys_created_by>jon.lind</sys_created_by>
-        <sys_created_on>2022-07-07 18:17:25</sys_created_on>
-        <sys_id>c270476d2fe091109622bcb62799b668</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Repeater Example</sys_name>
-        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
-        <sys_update_name>sys_ux_macroponent_c270476d2fe091109622bcb62799b668</sys_update_name>
-        <sys_updated_by>jon.lind</sys_updated_by>
-        <sys_updated_on>2022-07-08 21:31:43</sys_updated_on>
-    </sys_ux_macroponent>
+    <root_component/>
+    <root_component_config>{ }</root_component_config>
+    <root_component_definition/>
+    <schema_version>1.0.0</schema_version>
+    <state_properties>[ ]</state_properties>
+    <sys_class_name>sys_ux_macroponent</sys_class_name>
+    <sys_created_by>jon.lind</sys_created_by>
+    <sys_created_on>2022-07-07 18:17:25</sys_created_on>
+    <sys_id>c270476d2fe091109622bcb62799b668</sys_id>
+    <sys_mod_count>9</sys_mod_count>
+    <sys_name>Repeater Example</sys_name>
+    <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+    <sys_policy/>
+    <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+    <sys_update_name>sys_ux_macroponent_c270476d2fe091109622bcb62799b668</sys_update_name>
+    <sys_updated_by>jon.lind</sys_updated_by>
+    <sys_updated_on>2022-07-08 21:31:43</sys_updated_on>
+  </sys_ux_macroponent>
 </record_update>
