@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</app_config>
         <description/>
+        <extension_point/>
         <fields>globalSearchViewConfigId</fields>
         <icon/>
         <name>Search</name>
         <optional_parameters>searchTerm</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>search</route_type>
         <screen_type display_value="Search">2d11df1fd5501110b7a00bb6c9463bda</screen_type>

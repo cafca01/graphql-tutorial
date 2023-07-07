@@ -18,6 +18,7 @@
         <sys_updated_by>jon.lind</sys_updated_by>
         <sys_updated_on>2022-06-30 19:43:42</sys_updated_on>
         <theme display_value="Starter Workspace Theme">2911df1f7d50111034c802a745b8d9dc</theme>
+        <u_original_theme/>
         <ux_app_configuration display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</ux_app_configuration>
     </m2m_app_config_theme>
 </record_update>

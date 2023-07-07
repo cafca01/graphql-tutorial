@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>List</name>
         <optional_parameters>listId,configId,tinyId</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>list</route_type>
         <screen_type display_value="List">6111df1f0f501110ca0b213c12f2f0db</screen_type>

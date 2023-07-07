@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ux_macroponent">
-  <sys_ux_macroponent action="INSERT_OR_UPDATE">
-    <associated_types/>
-    <category>page</category>
-    <component_dependencies/>
-    <composition>[ {
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
   "elementId" : "b7478b61a8d42010f877849f4a95680c_Main",
   "elementLabel" : "Main",
   "propertyValues" : {
@@ -1112,15 +1111,18 @@
     "height" : "100%"
   }
 } ]</composition>
-    <da_relay_models/>
-    <data>[ ]</data>
-    <dispatched_events>a911df1f6f50111080ff90417bc5a5da</dispatched_events>
-    <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-    <handled_events/>
-    <interactions/>
-    <interfaces/>
-    <internal_event_mappings>{ }</internal_event_mappings>
-    <layout>{
+        <da_relay_models/>
+        <data>[ ]</data>
+        <description/>
+        <dispatched_events>a911df1f6f50111080ff90417bc5a5da</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
   "default" : {
     "children" : null,
     "isInline" : null,
@@ -1133,10 +1135,11 @@
   },
   "version" : "3.0.0"
 }</layout>
-    <macroponent_dependencies/>
-    <name>Home</name>
-    <props>[ ]</props>
-    <required_translations>[ {
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ {
   "message" : "&lt;p&gt;Here are example queries which you can use to start testing queries for the tutorial.&amp;nbsp; Consider a tool such as &lt;a href=\"https://insomnia.rest/\"&gt;Insomnia&lt;/a&gt; which will allow you to query your instance and supports syntax highlighting, prettifier and auto-complete of field names.&lt;/p&gt;",
   "comment" : ""
 }, {
@@ -1167,22 +1170,23 @@
   "message" : "query {\n  xSncGraphTutor {\n    university {\n      getIncident(id: \"ff4c21c4735123002728660c4cf6a758\") {\n        id\n        number\n        shortDescription\n      }\n    }\n  }\n}",
   "comment" : ""
 } ]</required_translations>
-    <root_component/>
-    <root_component_config>{ }</root_component_config>
-    <root_component_definition/>
-    <schema_version>1.0.0</schema_version>
-    <state_properties>[ ]</state_properties>
-    <sys_class_name>sys_ux_macroponent</sys_class_name>
-    <sys_created_by>jon.lind</sys_created_by>
-    <sys_created_on>2022-06-30 19:43:43</sys_created_on>
-    <sys_id>6911df1fb5501110362715ca77262cda</sys_id>
-    <sys_mod_count>18</sys_mod_count>
-    <sys_name>Home</sys_name>
-    <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
-    <sys_policy/>
-    <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
-    <sys_update_name>sys_ux_macroponent_6911df1fb5501110362715ca77262cda</sys_update_name>
-    <sys_updated_by>jon.lind</sys_updated_by>
-    <sys_updated_on>2022-07-08 21:19:55</sys_updated_on>
-  </sys_ux_macroponent>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>jon.lind</sys_created_by>
+        <sys_created_on>2022-06-30 19:43:43</sys_created_on>
+        <sys_id>6911df1fb5501110362715ca77262cda</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="GraphQL Tutorial" source="x_530453_gqlt">1f11c39f2f1011109622bcb62799b615</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GraphQL Tutorial">1f11c39f2f1011109622bcb62799b615</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6911df1fb5501110362715ca77262cda</sys_update_name>
+        <sys_updated_by>jon.lind</sys_updated_by>
+        <sys_updated_on>2022-07-08 21:19:55</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=6911df1fb5501110362715ca77262cda"/>
 </record_update>

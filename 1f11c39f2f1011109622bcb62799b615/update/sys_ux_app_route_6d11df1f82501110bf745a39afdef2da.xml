@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="GraphQL Tutorial Config">2511df1fbd501110c426088cfa7870dc</app_config>
         <description/>
+        <extension_point/>
         <fields>table</fields>
         <icon/>
         <name>Simple List</name>
         <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>simplelist</route_type>
         <screen_type display_value="Simple List">ed11df1ffb5011102cbf6408dcb719da</screen_type>
